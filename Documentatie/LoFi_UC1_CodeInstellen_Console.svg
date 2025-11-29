@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500">
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="500" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Title -->
+  <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Lo-fi console ontwerp – UC1: Code instellen
+  </text>
+
+  <!-- Console window -->
+  <rect x="40" y="60" width="820" height="410" fill="#fdfdfd" stroke="black" stroke-width="2"/>
+
+  <!-- Console header bar -->
+  <rect x="40" y="60" width="820" height="30" fill="#e0e0e0" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="75" r="6" fill="none" stroke="black" stroke-width="1"/>
+  <circle cx="80" cy="75" r="6" fill="none" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="75" r="6" fill="none" stroke="black" stroke-width="1"/>
+  <text x="120" y="80" font-family="Arial, sans-serif" font-size="12">console – kluis_app</text>
+
+  <!-- Console content (monospace lo-fi) -->
+  <text x="60" y="110" font-family="Courier New, monospace" font-size="14">
+    ================================================
+  </text>
+  <text x="60" y="130" font-family="Courier New, monospace" font-size="14">
+    KLUISTOOL – CODE INSTELLEN
+  </text>
+  <text x="60" y="150" font-family="Courier New, monospace" font-size="14">
+    ================================================
+  </text>
+
+  <!-- Instruction -->
+  <text x="60" y="180" font-family="Courier New, monospace" font-size="14">
+    Beschrijving: stel een nieuwe toegangscode in voor de kluis.
+  </text>
+  <text x="60" y="200" font-family="Courier New, monospace" font-size="14">
+    Voorwaarden: minimaal 4 cijfers.
+  </text>
+
+  <!-- Prompt -->
+  <text x="60" y="240" font-family="Courier New, monospace" font-size="14">
+    Voer een nieuwe toegangscode in (of 'X' om te annuleren):
+  </text>
+  <text x="60" y="260" font-family="Courier New, monospace" font-size="14">
+    &gt; ****
+  </text>
+
+  <!-- Placeholder for error -->
+  <text x="60" y="300" font-family="Courier New, monospace" font-size="14" fill="#999">
+    [Foutmelding hier bij ongeldige code, bijv.: "Code ongeldig, probeer opnieuw"]
+  </text>
+
+  <!-- Happy flow result -->
+  <text x="60" y="340" font-family="Courier New, monospace" font-size="14">
+    Code opgeslagen.
+  </text>
+  <text x="60" y="360" font-family="Courier New, monospace" font-size="14">
+    De kluis is nu beveiligd met de nieuwe toegangscode.
+  </text>
+
+  <!-- Hint / annotation -->
+  <text x="60" y="395" font-family="Arial, sans-serif" font-size="11" fill="#555">
+    Lo-fi console flow: 1) uitleg tonen  2) code vragen  3) validatie  4) foutmelding of bevestiging.
+  </text>
+</svg>
